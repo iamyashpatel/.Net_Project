@@ -1,0 +1,39 @@
+﻿.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.dashboard-options {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+    .dashboard-options h3 {
+        margin-top: 0;
+    }
+
+    .dashboard-options ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .dashboard-options ul li {
+            margin-bottom: 10px;
+        }
+
+            .dashboard-options ul li a {
+                text-decoration: none;
+                color: #333;
+                display: block;
+                padding: 10px;
+                transition: background-color 0.3s;
+            }
+
+                .dashboard-options ul li a:hover {
+                    background-color: #333;
+                    color: #fff;
+                }

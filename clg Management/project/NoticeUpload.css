@@ -1,0 +1,58 @@
+﻿/* Styles for Notice Upload Page */
+
+/* Heading styles */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Container styles */
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    .form-group input[type="text"],
+    .form-group textarea,
+    .form-group input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    /* Button styles */
+    .form-group input[type="submit"] {
+        background-color: #0066cc;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .form-group input[type="submit"]:hover {
+            background-color: #005cbf;
+        }
+
+/* Message label styles */
+#lblMessage {
+    font-weight: bold;
+    text-align: center;
+}

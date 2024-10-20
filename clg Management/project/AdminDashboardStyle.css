@@ -1,0 +1,45 @@
+﻿.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.upload-options,
+.show-options {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+}
+
+    .upload-options h3,
+    .show-options h3 {
+        margin-top: 0;
+    }
+
+    .upload-options ul,
+    .show-options ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .upload-options ul li,
+        .show-options ul li {
+            margin-bottom: 10px;
+        }
+
+            .upload-options ul li a,
+            .show-options ul li a {
+                text-decoration: none;
+                color: #333;
+                display: block;
+                padding: 10px;
+                transition: background-color 0.3s;
+            }
+
+                .upload-options ul li a:hover,
+                .show-options ul li a:hover {
+                    background-color: #333;
+                    color: #fff;
+                }
